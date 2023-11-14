@@ -1,6 +1,7 @@
 ﻿# Capstone-Project
 
-#### The project was intended to be my senior capstone research project after i realized writing my own antir-virus kernel driver was probably going to take me way too long to accomplish in one semester. The goal of the project was to create shellcode launcher that would ultimately bypass anti-virus / EDR products. However, since I was not shelling out money for this assignment, I was limited to free products available. The tested prodocuts were: Defender, ESET | ESET Live, BitDefender, MalwareBytes, TotalAV, and Avira. The malware was packed with the following techniques:
+#### Intent
+The project was intended to be my senior capstone research project after i realized writing my own antir-virus kernel driver was probably going to take me way too long to accomplish in one semester. The goal of the project was to create shellcode launcher that would ultimately bypass anti-virus / EDR products. However, since I was not shelling out money for this assignment, I was limited to free products available. The tested prodocuts were: Defender, ESET | ESET Live, BitDefender, MalwareBytes, TotalAV, and Avira. The malware was packed with the following techniques:
 
 1)	Dynamic Function Resolution – Used to hide functions from the IAT.
 2)	Manual GetProcAddress & Manual GetModuleHandle functions – Used to hide these functions from the IAT.
@@ -17,8 +18,11 @@
 13)	Removal of the C Runtime Library – Less bloat in the application, functions of the C Runtime are implemented manually. Also ensures the payload can run on any Windows 10 x64 system.
 14)	 Hiding of the console window – ensures a victim user does not become suspicious that something happened after execution through witnessing a command prompt flash.
 
-#### These techniques were adapted from previous research and the maldevacademy content. Some of the code introduced was used one for one, some required adjustments to meet my criteria for the project.
+#### Sources
+These techniques were adapted from previous research and the maldevacademy content. Some of the code introduced was used one for one, some required adjustments to meet my criteria for the project.
 
-#### The biggest regret I have for this project was not implementing ETW bypassing & not implementing memory encryption. However, since the meterpreter shellcode does not allow for (as far as i know) setting sleep settings, we are unable to encyrpt the shellcode at rest. This was problematic because, our payload when it was detected almost always got detected by memory scanners.
+#### Takeaways
+The biggest regret I have for this project was not implementing ETW bypassing & not implementing memory encryption. However, since the meterpreter shellcode does not allow for (as far as i know) setting sleep settings, we are unable to encyrpt the shellcode at rest. This was problematic because, our payload when it was detected almost always got detected by memory scanners. I also thought this level of work would just not be necessary when against free-ware anti-virus products.
 
-#### Results - Defender Bypassed, MalwareBytes Bypassed, TotalAV Bypassed, BitDefender Detected, Avira - installation could not be completed, ESET & ESET Live Detected using memory scanner.
+#### Results
+Defender Bypassed, MalwareBytes Bypassed, TotalAV Bypassed, BitDefender Detected, Avira - installation could not be completed, ESET & ESET Live Detected using memory scanner.
