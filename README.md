@@ -8,17 +8,14 @@
 4)	Custom written – bypassing the hashing detection methodology.
 5)	MSFVenom Windows Meterpreter Shellcode Payload – A widely signatured payload that should be easily detected by AV engines.
 6)	AES encryption of the Meterpreter payload at rest – Used to remove the possibility of the meterpreter payload being signature detected while on disk.
-
-  a.	The tiny AES library is used to encrypt / decrypt payloads without needing to use Windows APIs that may be hooked by security solutions.
+7)	he tiny AES library is used to encrypt / decrypt payloads without needing to use Windows APIs that may be hooked by security solutions.
 8)	RC4 encryption of all strings used within the malware – Used to remove the possibility of strings being signatured or detected when scanning the malware application.
 9)	Indirect System Calls – Used to call system calls directly bypassing any API hooking the security solution has implemented to detect malicious code execution at run time.
- 
-  a.	Indirect system calls are used to perform API Unhooking of the entire NTDLL module loaded into memory.
-  
-  b.	Indirect system calls are used to load the decrypted meterpreter payload into memory & executing it via a new thread. This bypasses AV’s ability for detection when executing the shellcode.
-10)	Self-Deletion of the payload from disk. – Used to remove the payload from disk so it cannot be analyzed further.
-11)	Removal of the C Runtime Library – Less bloat in the application, functions of the C Runtime are implemented manually. Also ensures the payload can run on any Windows 10 x64 system.
-12)	 Hiding of the console window – ensures a victim user does not become suspicious that something happened after execution through witnessing a command prompt flash.
+10)	Indirect system calls are used to perform API Unhooking of the entire NTDLL module loaded into memory.
+11)	Indirect system calls are used to load the decrypted meterpreter payload into memory & executing it via a new thread. This bypasses AV’s ability for detection when executing the shellcode.
+12)	Self-Deletion of the payload from disk. – Used to remove the payload from disk so it cannot be analyzed further.
+13)	Removal of the C Runtime Library – Less bloat in the application, functions of the C Runtime are implemented manually. Also ensures the payload can run on any Windows 10 x64 system.
+14)	 Hiding of the console window – ensures a victim user does not become suspicious that something happened after execution through witnessing a command prompt flash.
 
 ####These techniques were adapted from previous research and the maldevacademy content. Some of the code introduced was used one for one, some required adjustments to meet my criteria for the project.
 
