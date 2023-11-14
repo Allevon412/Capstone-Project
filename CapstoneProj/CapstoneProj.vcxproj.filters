@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ResolveFunctionsDynamically">
+      <UniqueIdentifier>{92fd06be-e94a-4c1c-9858-8740c51ad6c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ResolveFunctionsDynamically">
+      <UniqueIdentifier>{e2a8f9c9-d75f-42cf-a952-98e7de545395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SelfDelete">
+      <UniqueIdentifier>{6c16f9a3-96e5-42ae-9694-ec8465c1d537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SelfDelete">
+      <UniqueIdentifier>{7998e632-490b-4fac-9f57-2adca2f22a01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Crypto">
+      <UniqueIdentifier>{0b5f0f2b-e2db-4021-bccd-fab83edc07df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Crypto">
+      <UniqueIdentifier>{2baed93c-eff8-4c5b-9120-e70fdaa1faef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IndirectSyscalls">
+      <UniqueIdentifier>{5ba9e64f-05ac-48d0-9362-5aadd98ff2b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IndirectSyscalls">
+      <UniqueIdentifier>{9fbf10a6-1d72-4e84-bdfd-95d1c4a52fb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ExecutePayload">
+      <UniqueIdentifier>{535fda9c-b67a-4fbf-a21b-11498ddad96c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ExecutePayload">
+      <UniqueIdentifier>{c70341af-c32f-4a19-a525-0eaf4c9140b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Unhooking">
+      <UniqueIdentifier>{78f4d34a-e255-4a3e-b905-ed9096db395b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Unhooking">
+      <UniqueIdentifier>{92e68559-2705-4ae0-8e19-3f970fc3d974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Resources">
+      <UniqueIdentifier>{e5907f6f-e8f2-4dda-bb48-48ddc4e672a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resources">
+      <UniqueIdentifier>{19dcc6b3-6030-40fa-be47-437cb648e928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{333d32fb-a562-46ed-af80-6292f450a3c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{05a6957a-33e4-4f3c-85c4-37586476ebbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities\MemoryManipulation">
+      <UniqueIdentifier>{5b7d6a1f-c960-4f24-8335-c9164ad80975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities\StringManipulation">
+      <UniqueIdentifier>{07324ebc-5c22-4ae5-961c-8298da0f96fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities\MemoryManipulation">
+      <UniqueIdentifier>{df6da5f0-f3f1-45ee-a029-2b4b5b871850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities\StringManipulation">
+      <UniqueIdentifier>{a73e6ea6-b44e-4da3-a880-3a77a8c87f9f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ResolveFunctionsDynamically.hpp">
+      <Filter>Header Files\ResolveFunctionsDynamically</Filter>
+    </ClInclude>
+    <ClInclude Include="StringManipulation.hpp">
+      <Filter>Header Files\Utilities\StringManipulation</Filter>
+    </ClInclude>
+    <ClInclude Include="SelfDelete.h">
+      <Filter>Header Files\SelfDelete</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryManipulation.hpp">
+      <Filter>Header Files\Utilities\MemoryManipulation</Filter>
+    </ClInclude>
+    <ClInclude Include="aes.h">
+      <Filter>Header Files\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="aes.hpp">
+      <Filter>Header Files\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="ApiHashing.hpp">
+      <Filter>Header Files\ResolveFunctionsDynamically</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionDefinitions.h">
+      <Filter>Header Files\ResolveFunctionsDynamically</Filter>
+    </ClInclude>
+    <ClInclude Include="HellsHall.h">
+      <Filter>Header Files\IndirectSyscalls</Filter>
+    </ClInclude>
+    <ClInclude Include="ExecutePayload.h">
+      <Filter>Header Files\ExecutePayload</Filter>
+    </ClInclude>
+    <ClInclude Include="Unhooking.h">
+      <Filter>Header Files\Unhooking</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionHashes.h">
+      <Filter>Header Files\IndirectSyscalls</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>Header Files\ResolveFunctionsDynamically</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Header Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Rc4.h">
+      <Filter>Header Files\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="StringRandomizer.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomIntGenerator.h">
+      <Filter>Header Files\Crypto</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StringCompare.cpp">
+      <Filter>Source Files\Utilities\StringManipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="StringLength.cpp">
+      <Filter>Source Files\Utilities\StringManipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="StringLower.cpp">
+      <Filter>Source Files\Utilities\StringManipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResolveFunctionsDynamically.cpp">
+      <Filter>Source Files\ResolveFunctionsDynamically</Filter>
+    </ClCompile>
+    <ClCompile Include="SelfDelete.cpp">
+      <Filter>Source Files\SelfDelete</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryManipulation.cpp">
+      <Filter>Source Files\Utilities\MemoryManipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="StringConcat.cpp">
+      <Filter>Source Files\Utilities\StringManipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="StringCopy.cpp">
+      <Filter>Source Files\Utilities\StringManipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="aes.cpp">
+      <Filter>Source Files\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="Decrypt.cpp">
+      <Filter>Source Files\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="StringTerminateAtChar.cpp">
+      <Filter>Source Files\Utilities\StringManipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="HellsHall.cpp">
+      <Filter>Source Files\IndirectSyscalls</Filter>
+    </ClCompile>
+    <ClCompile Include="ExecutePayload.c">
+      <Filter>Source Files\ExecutePayload</Filter>
+    </ClCompile>
+    <ClCompile Include="ApiHashing.cpp">
+      <Filter>Source Files\ResolveFunctionsDynamically</Filter>
+    </ClCompile>
+    <ClCompile Include="Unhooking.c">
+      <Filter>Source Files\Unhooking</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>Source Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Rc4.cpp">
+      <Filter>Source Files\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="StringRandomizer.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="CharStringToWCharString.cpp">
+      <Filter>Source Files\Utilities\StringManipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="WCharStringToCharString.cpp">
+      <Filter>Source Files\Utilities\StringManipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="StringLocateChar.cpp">
+      <Filter>Source Files\Utilities\StringManipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomIntGenerator.cpp">
+      <Filter>Source Files\Crypto</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="HellsAsm.asm">
+      <Filter>Source Files\IndirectSyscalls</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>

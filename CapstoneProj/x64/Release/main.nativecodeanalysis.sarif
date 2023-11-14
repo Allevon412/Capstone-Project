@@ -1,0 +1,115 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32824.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/brendan ortiz/desktop/ua-stuff/fall23/cybv498capstone/capstoneproj/capstoneproj/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "2aae9ddcd0f9c22154d1e3bc31d28e84e8402ef0608847a98ca48444fbd07ead"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brendan ortiz/desktop/ua-stuff/fall23/cybv498capstone/capstoneproj/capstoneproj/resolvefunctionsdynamically.hpp"
+          },
+          "hashes": {
+            "sha-256": "3e7f2d79ef3f5549fcf061e6aaaf8cec961800478e2a6318ae823a3ec735d530"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brendan ortiz/desktop/ua-stuff/fall23/cybv498capstone/capstoneproj/capstoneproj/functiondefinitions.h"
+          },
+          "hashes": {
+            "sha-256": "fa67a8e998622725e254910b9f945e0d35c44ad66bf25b04ac1e9e67f310600e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brendan ortiz/desktop/ua-stuff/fall23/cybv498capstone/capstoneproj/capstoneproj/selfdelete.h"
+          },
+          "hashes": {
+            "sha-256": "0a5aaad52fdc0c38db1196a5f71df2e74d6b29a08a55e7401f8c87bc9cdfef0a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brendan ortiz/desktop/ua-stuff/fall23/cybv498capstone/capstoneproj/capstoneproj/aes.hpp"
+          },
+          "hashes": {
+            "sha-256": "4c43dfb112b164c6f0eff8fbeed8039cb3b3a959b05d187293e9eeda7dcf2c21"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brendan ortiz/desktop/ua-stuff/fall23/cybv498capstone/capstoneproj/capstoneproj/aes.h"
+          },
+          "hashes": {
+            "sha-256": "de9c30128e3db5524c85a5503a4dd0087e693a75fab1df641b5a5b4082a4b386"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brendan ortiz/desktop/ua-stuff/fall23/cybv498capstone/capstoneproj/capstoneproj/hellshall.h"
+          },
+          "hashes": {
+            "sha-256": "ae63390be65258e7d38a924195e4d473428d906399d24bc83b36a3758a401aa9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brendan ortiz/desktop/ua-stuff/fall23/cybv498capstone/capstoneproj/capstoneproj/memorymanipulation.hpp"
+          },
+          "hashes": {
+            "sha-256": "9dda96cbc90f8a0986f048aab3ad59369c14598c939c3aeed1118117e8838869"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brendan ortiz/desktop/ua-stuff/fall23/cybv498capstone/capstoneproj/capstoneproj/apihashing.h"
+          },
+          "hashes": {
+            "sha-256": "f3ca8cfa789c500a2300554fecc7d3184bebc94e90e68add4c60fff31079e53c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brendan ortiz/desktop/ua-stuff/fall23/cybv498capstone/capstoneproj/capstoneproj/executepayload.h"
+          },
+          "hashes": {
+            "sha-256": "194f65bb995e3c104096a6480753e151affb032e0ee38d24d16ad09cdd3d9d83"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brendan ortiz/desktop/ua-stuff/fall23/cybv498capstone/capstoneproj/capstoneproj/unhooking.h"
+          },
+          "hashes": {
+            "sha-256": "81e581fca6eda199bc371b0aa57a2621c450e843a930b6c0c4ce703f2a621e2a"
+          }
+        }
+      ]
+    }
+  ]
+}

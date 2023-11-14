@@ -1,0 +1,43 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32824.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/brendan ortiz/desktop/ua-stuff/fall23/cybv498capstone/capstoneproj/capstoneproj/memorymanipulation.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "bacace6b5b81740feefce672d416ef31b5c290722bb07c5b2b36007c9df1dacc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brendan ortiz/desktop/ua-stuff/fall23/cybv498capstone/capstoneproj/capstoneproj/memorymanipulation.hpp"
+          },
+          "hashes": {
+            "sha-256": "9dda96cbc90f8a0986f048aab3ad59369c14598c939c3aeed1118117e8838869"
+          }
+        }
+      ]
+    }
+  ]
+}

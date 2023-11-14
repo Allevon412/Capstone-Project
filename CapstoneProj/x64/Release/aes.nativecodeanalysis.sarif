@@ -1,0 +1,478 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Using uninitialized memory 'storeNextIv'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Brendan Ortiz/Desktop/UA-Stuff/Fall23/CYBV498Capstone/CapstoneProj/CapstoneProj/aes.cpp"
+                },
+                "region": {
+                  "startLine": 525,
+                  "startColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AES_CBC_decrypt_buffer",
+                  "decoratedName": "AES_CBC_decrypt_buffer",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Brendan Ortiz/Desktop/UA-Stuff/Fall23/CYBV498Capstone/CapstoneProj/CapstoneProj/aes.cpp"
+                          },
+                          "region": {
+                            "startLine": 521,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Brendan Ortiz/Desktop/UA-Stuff/Fall23/CYBV498Capstone/CapstoneProj/CapstoneProj/aes.cpp"
+                          },
+                          "region": {
+                            "startLine": 522,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "'storeNextIv' is not initialized"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Brendan Ortiz/Desktop/UA-Stuff/Fall23/CYBV498Capstone/CapstoneProj/CapstoneProj/aes.cpp"
+                          },
+                          "region": {
+                            "startLine": 523,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Brendan Ortiz/Desktop/UA-Stuff/Fall23/CYBV498Capstone/CapstoneProj/CapstoneProj/aes.cpp"
+                          },
+                          "region": {
+                            "startLine": 523,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<length')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Brendan Ortiz/Desktop/UA-Stuff/Fall23/CYBV498Capstone/CapstoneProj/CapstoneProj/aes.cpp"
+                          },
+                          "region": {
+                            "startLine": 525,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "'storeNextIv' is an In/Out argument to 'CopyMemoryEx' (declared at c:\\users\\brendan ortiz\\desktop\\ua-stuff\\fall23\\cybv498capstone\\capstoneproj\\capstoneproj\\memorymanipulation.hpp:11)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Brendan Ortiz/Desktop/UA-Stuff/Fall23/CYBV498Capstone/CapstoneProj/CapstoneProj/aes.cpp"
+                          },
+                          "region": {
+                            "startLine": 526,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Brendan Ortiz/Desktop/UA-Stuff/Fall23/CYBV498Capstone/CapstoneProj/CapstoneProj/aes.cpp"
+                          },
+                          "region": {
+                            "startLine": 527,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Brendan Ortiz/Desktop/UA-Stuff/Fall23/CYBV498Capstone/CapstoneProj/CapstoneProj/aes.cpp"
+                          },
+                          "region": {
+                            "startLine": 528,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Brendan Ortiz/Desktop/UA-Stuff/Fall23/CYBV498Capstone/CapstoneProj/CapstoneProj/aes.cpp"
+                          },
+                          "region": {
+                            "startLine": 529,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Brendan Ortiz/Desktop/UA-Stuff/Fall23/CYBV498Capstone/CapstoneProj/CapstoneProj/aes.cpp"
+                          },
+                          "region": {
+                            "startLine": 525,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "'storeNextIv' is used, but may not have been initialized"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Using uninitialized memory 'buffer'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Brendan Ortiz/Desktop/UA-Stuff/Fall23/CYBV498Capstone/CapstoneProj/CapstoneProj/aes.cpp"
+                },
+                "region": {
+                  "startLine": 552,
+                  "startColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AES_CTR_xcrypt_buffer",
+                  "decoratedName": "AES_CTR_xcrypt_buffer",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Brendan Ortiz/Desktop/UA-Stuff/Fall23/CYBV498Capstone/CapstoneProj/CapstoneProj/aes.cpp"
+                          },
+                          "region": {
+                            "startLine": 543,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "'buffer' is not initialized"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Brendan Ortiz/Desktop/UA-Stuff/Fall23/CYBV498Capstone/CapstoneProj/CapstoneProj/aes.cpp"
+                          },
+                          "region": {
+                            "startLine": 545,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Brendan Ortiz/Desktop/UA-Stuff/Fall23/CYBV498Capstone/CapstoneProj/CapstoneProj/aes.cpp"
+                          },
+                          "region": {
+                            "startLine": 546,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Brendan Ortiz/Desktop/UA-Stuff/Fall23/CYBV498Capstone/CapstoneProj/CapstoneProj/aes.cpp"
+                          },
+                          "region": {
+                            "startLine": 547,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Brendan Ortiz/Desktop/UA-Stuff/Fall23/CYBV498Capstone/CapstoneProj/CapstoneProj/aes.cpp"
+                          },
+                          "region": {
+                            "startLine": 547,
+                            "startColumn": 38
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<length')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Brendan Ortiz/Desktop/UA-Stuff/Fall23/CYBV498Capstone/CapstoneProj/CapstoneProj/aes.cpp"
+                          },
+                          "region": {
+                            "startLine": 549,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'bi==16')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Brendan Ortiz/Desktop/UA-Stuff/Fall23/CYBV498Capstone/CapstoneProj/CapstoneProj/aes.cpp"
+                          },
+                          "region": {
+                            "startLine": 552,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "'buffer' is an In/Out argument to 'CopyMemoryEx' (declared at c:\\users\\brendan ortiz\\desktop\\ua-stuff\\fall23\\cybv498capstone\\capstoneproj\\capstoneproj\\memorymanipulation.hpp:11)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Brendan Ortiz/Desktop/UA-Stuff/Fall23/CYBV498Capstone/CapstoneProj/CapstoneProj/aes.cpp"
+                          },
+                          "region": {
+                            "startLine": 553,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Brendan Ortiz/Desktop/UA-Stuff/Fall23/CYBV498Capstone/CapstoneProj/CapstoneProj/aes.cpp"
+                          },
+                          "region": {
+                            "startLine": 556,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Brendan Ortiz/Desktop/UA-Stuff/Fall23/CYBV498Capstone/CapstoneProj/CapstoneProj/aes.cpp"
+                          },
+                          "region": {
+                            "startLine": 552,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "'buffer' is used, but may not have been initialized"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32824.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Brendan Ortiz/Desktop/UA-Stuff/Fall23/CYBV498Capstone/CapstoneProj/CapstoneProj/aes.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "16883d5f062bd14170cccac3dd78c73fb0b4452074203c2ea28e032b3885c9f1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brendan ortiz/desktop/ua-stuff/fall23/cybv498capstone/capstoneproj/capstoneproj/memorymanipulation.hpp"
+          },
+          "hashes": {
+            "sha-256": "9dda96cbc90f8a0986f048aab3ad59369c14598c939c3aeed1118117e8838869"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brendan ortiz/desktop/ua-stuff/fall23/cybv498capstone/capstoneproj/capstoneproj/resolvefunctionsdynamically.hpp"
+          },
+          "hashes": {
+            "sha-256": "3e7f2d79ef3f5549fcf061e6aaaf8cec961800478e2a6318ae823a3ec735d530"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brendan ortiz/desktop/ua-stuff/fall23/cybv498capstone/capstoneproj/capstoneproj/functiondefinitions.h"
+          },
+          "hashes": {
+            "sha-256": "fa67a8e998622725e254910b9f945e0d35c44ad66bf25b04ac1e9e67f310600e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brendan ortiz/desktop/ua-stuff/fall23/cybv498capstone/capstoneproj/capstoneproj/aes.hpp"
+          },
+          "hashes": {
+            "sha-256": "4c43dfb112b164c6f0eff8fbeed8039cb3b3a959b05d187293e9eeda7dcf2c21"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brendan ortiz/desktop/ua-stuff/fall23/cybv498capstone/capstoneproj/capstoneproj/aes.h"
+          },
+          "hashes": {
+            "sha-256": "de9c30128e3db5524c85a5503a4dd0087e693a75fab1df641b5a5b4082a4b386"
+          }
+        }
+      ]
+    }
+  ]
+}

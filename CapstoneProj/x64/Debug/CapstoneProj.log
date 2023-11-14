@@ -1,0 +1,10 @@
+﻿  Unhooking.c
+C:\Users\Brendan Ortiz\Desktop\UA-Stuff\Fall23\CYBV498Capstone\CapstoneProj\CapstoneProj\Unhooking.c(55,40): warning C4244: '=': conversion from 'SIZE_T' to 'USHORT', possible loss of data
+C:\Users\Brendan Ortiz\Desktop\UA-Stuff\Fall23\CYBV498Capstone\CapstoneProj\CapstoneProj\Unhooking.c(46,11): warning C4047: 'initializing': 'NTSTATUS' differs in levels of indirection from 'void *'
+C:\Users\Brendan Ortiz\Desktop\UA-Stuff\Fall23\CYBV498Capstone\CapstoneProj\CapstoneProj\Unhooking.c(112,9): warning C4047: 'initializing': 'SIZE_T' differs in levels of indirection from 'void *'
+C:\Users\Brendan Ortiz\Desktop\UA-Stuff\Fall23\CYBV498Capstone\CapstoneProj\CapstoneProj\Unhooking.c(144,8): warning C4047: 'initializing': 'DWORD' differs in levels of indirection from 'void *'
+C:\Users\Brendan Ortiz\Desktop\UA-Stuff\Fall23\CYBV498Capstone\CapstoneProj\CapstoneProj\Unhooking.c(145,11): warning C4047: 'initializing': 'NTSTATUS' differs in levels of indirection from 'void *'
+C:\Users\Brendan Ortiz\Desktop\UA-Stuff\Fall23\CYBV498Capstone\CapstoneProj\CapstoneProj\Unhooking.c(185,46): warning C4047: '!=': 'int' differs in levels of indirection from 'void *'
+C:\Users\Brendan Ortiz\Desktop\UA-Stuff\Fall23\CYBV498Capstone\CapstoneProj\CapstoneProj\Unhooking.c(228,11): warning C4047: 'initializing': 'NTSTATUS' differs in levels of indirection from 'void *'
+C:\Users\Brendan Ortiz\Desktop\UA-Stuff\Fall23\CYBV498Capstone\CapstoneProj\CapstoneProj\Unhooking.c(196): warning C4172: returning address of local variable or temporary: ReturnStr
+  CapstoneProj.vcxproj -> C:\Users\Brendan Ortiz\Desktop\UA-Stuff\Fall23\CYBV498Capstone\CapstoneProj\x64\Debug\CapstoneProj.exe

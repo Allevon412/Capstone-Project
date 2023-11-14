@@ -1,0 +1,75 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32824.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/brendan ortiz/desktop/ua-stuff/fall23/cybv498capstone/capstoneproj/capstoneproj/selfdelete.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "93375446082702fc849e8a246978509b0deeea30e9adf7aee93b93bf6b215ada"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brendan ortiz/desktop/ua-stuff/fall23/cybv498capstone/capstoneproj/capstoneproj/resolvefunctionsdynamically.hpp"
+          },
+          "hashes": {
+            "sha-256": "3e7f2d79ef3f5549fcf061e6aaaf8cec961800478e2a6318ae823a3ec735d530"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brendan ortiz/desktop/ua-stuff/fall23/cybv498capstone/capstoneproj/capstoneproj/functiondefinitions.h"
+          },
+          "hashes": {
+            "sha-256": "fa67a8e998622725e254910b9f945e0d35c44ad66bf25b04ac1e9e67f310600e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brendan ortiz/desktop/ua-stuff/fall23/cybv498capstone/capstoneproj/capstoneproj/memorymanipulation.hpp"
+          },
+          "hashes": {
+            "sha-256": "9dda96cbc90f8a0986f048aab3ad59369c14598c939c3aeed1118117e8838869"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brendan ortiz/desktop/ua-stuff/fall23/cybv498capstone/capstoneproj/capstoneproj/stringmanipulation.hpp"
+          },
+          "hashes": {
+            "sha-256": "d7757406dfdabfdf106c2f85f172d49fa7b2608559272e6a4cc51300cc8a1bfd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brendan ortiz/desktop/ua-stuff/fall23/cybv498capstone/capstoneproj/capstoneproj/selfdelete.h"
+          },
+          "hashes": {
+            "sha-256": "0a5aaad52fdc0c38db1196a5f71df2e74d6b29a08a55e7401f8c87bc9cdfef0a"
+          }
+        }
+      ]
+    }
+  ]
+}
